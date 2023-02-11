@@ -1,0 +1,12 @@
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: rgba($color: grey, $alpha: 0.2);
+    border-radius: 20px;
+  }
+}
