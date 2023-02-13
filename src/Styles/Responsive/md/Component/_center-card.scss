@@ -1,0 +1,12 @@
+.center-card {
+  &__listing {
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin-top: 0;
+    padding: 12.5rem 1.5rem 2rem 1.5rem;
+
+    &::after {
+      display: block;
+    }
+  }
+}

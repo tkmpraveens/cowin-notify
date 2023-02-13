@@ -1,0 +1,8 @@
+.landing {
+  &__menu {
+    grid-template-columns: 1fr 1fr;
+  }
+  &__menu-toggle {
+    grid-column: 1 / -1;
+  }
+}
