@@ -4,7 +4,7 @@ Cowin notify is a web application that helps you stay informed about Covid-19 va
 
 ### Live
 
-tkmpraveens.github.io/cowin-notify
+[tkmpraveens.github.io/cowin-notify](https://tkmpraveens.github.io/cowin-notify/)
 
 ### Features
 
@@ -17,9 +17,9 @@ tkmpraveens.github.io/cowin-notify
 ### Screenshots
 
 <img src="screenshots/mobile.jpg" alt= "Mobile view" width="90%">
-<img src="screenshots/landing-page.png" alt= "Home page" width="80%">
-<img src="screenshots/search.png" alt= "Search for vaccine centers" width="80%">
-<img src="screenshots/select-all.png" alt= "Select all vaccine centers" width="80%">
+<img src="screenshots/landing-page.png" alt= "Home page" width="90%">
+<img src="screenshots/search.png" alt= "Search for vaccine centers" width="90%">
+<img src="screenshots/select-all.png" alt= "Select all vaccine centers" width="90%">
 
 ### Frontend Tech Stack
 
