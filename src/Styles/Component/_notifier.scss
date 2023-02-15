@@ -1,6 +1,7 @@
 .notifier {
   display: grid;
   grid-template-columns: 3rem 1fr;
+  grid-template-rows: 3rem min-content;
   align-items: center;
   cursor: pointer;
 
@@ -9,15 +10,15 @@
   }
   &__ripple {
     background-color: $color-secondary;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
+    width: 5em;
+    height: 5em;
     animation: ripple 0.7s linear infinite;
     transition: all 1500ms;
-    transform: translate(0.5rem, 0) scale(0);
+    border-radius: 50%;
+    transform: translate(-1.8rem, 0.02rem) scale(0);
 
     &--visible {
-      transform: translate(0.36rem, 0.02rem) scale(0.6);
+      transform: translate(-1.8rem, 0.02rem) scale(0.29);
     }
   }
   &__checkbox {
@@ -48,21 +49,20 @@
   }
   &__checkbox,
   &__ripple {
+    display: flex;
+    justify-content: center;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
   }
   @keyframes ripple {
     0% {
-      box-shadow: 0 0 0 0 rgba($color-secondary, 0.3),
-        0 0 0 0.5em rgba($color-secondary, 0.3),
-        0 0 0 1.5em rgba($color-secondary, 0.3),
-        0 0 0 2.5em rgba($color-secondary, 0.3);
+      box-shadow: 0 0 0 0 rgb(243 156 18 / 30%), 0 0 0 1em rgb(243 156 18 / 30%),
+        0 0 0 2em rgb(243 156 18 / 30%), 0 0 0 3.5em rgb(243 156 18 / 30%);
     }
     100% {
-      box-shadow: 0 0 0 0.5em rgba($color-secondary, 0.3),
-        0 0 0 1.5em rgba($color-secondary, 0.3),
-        0 0 0 2.5em rgba($color-secondary, 0.3),
-        0 0 0 4em rgba($color-secondary, 0);
+      box-shadow: 0 0 0 1em rgb(243 156 18 / 30%),
+        0 0 0 2em rgb(243 156 18 / 30%), 0 0 0 3.5em rgb(243 156 18 / 30%),
+        0 0 0 6rem rgb(243 156 18 / 0%);
     }
   }
 }
