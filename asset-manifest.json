@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cowin-notify/static/css/main.ecfb1e26.css",
+    "main.css": "/cowin-notify/static/css/main.acb6505d.css",
     "main.js": "/cowin-notify/static/js/main.ebc7f170.js",
     "static/media/alert.mp3": "/cowin-notify/static/media/alert.b3bc44c8819d730c71eb.mp3",
     "index.html": "/cowin-notify/index.html",
@@ -14,11 +14,11 @@
     "static/media/error.svg": "/cowin-notify/static/media/error.9013c77c8399ad70e8b044c2a7a05d8e.svg",
     "static/media/info.svg": "/cowin-notify/static/media/info.d5662f8874d2cf5e55fdf68f10ee3e8f.svg",
     "static/media/loading.svg": "/cowin-notify/static/media/loading.f4026ec3e0a9beaef5f3.svg",
-    "main.ecfb1e26.css.map": "/cowin-notify/static/css/main.ecfb1e26.css.map",
+    "main.acb6505d.css.map": "/cowin-notify/static/css/main.acb6505d.css.map",
     "main.ebc7f170.js.map": "/cowin-notify/static/js/main.ebc7f170.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfb1e26.css",
+    "static/css/main.acb6505d.css",
     "static/js/main.ebc7f170.js"
   ]
 }
