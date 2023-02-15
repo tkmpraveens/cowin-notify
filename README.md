@@ -17,9 +17,9 @@ Cowin notify is a web application that helps you stay informed about Covid-19 va
 ### Screenshots
 
 <img src="screenshots/mobile.jpg" alt= "Mobile view" width="90%">
-<img src="screenshots/landing-page.png" alt= "Home page" width="90%">
-<img src="screenshots/search.png" alt= "Search for vaccine centers" width="90%">
-<img src="screenshots/select-all.png" alt= "Select all vaccine centers" width="90%">
+<img src="screenshots/landing-page.jpg" alt= "Home page" width="90%">
+<img src="screenshots/search.jpg" alt= "Search for vaccine centers" width="90%">
+<img src="screenshots/select-all.jpg" alt= "Select all vaccine centers" width="90%">
 
 ### Frontend Tech Stack
 
